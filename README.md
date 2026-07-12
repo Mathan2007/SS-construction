@@ -20,7 +20,7 @@ Frontend website for **SS Construction** (React + Vite).
 If your app uses environment variables, create an `.env` file in the project root and add the required keys (example):
 
 ```env
-VITE_WEB3FORMS_ACCESS_KEY=956e1460-d5de-45ae-adfd-0ec8b4d7067d
+VITE_WEB3FORMS_ACCESS_KEY= 956e1460-d5de-45ae-adfd-0ec8b4d7067d
 ```
 
 ## Deploy
