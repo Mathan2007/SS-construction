@@ -1,0 +1,6 @@
+{
+  "name": "SS Construction",
+  "description": "Premium luxury residential and commercial construction services. Building your dream home with quality, trust, and excellence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

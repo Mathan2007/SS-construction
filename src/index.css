@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-gold-100: #F6E2A3;
+  --color-gold-200: #EAD07C;
+  --color-gold-300: #DCC255;
+  --color-gold-400: #C5A021;
+  --color-gold-500: #A8861B;
+  --color-gold-600: #8A6D15;
+  --color-gold-700: #6D5410;
+  --color-gold-800: #4F3C0A;
+  --color-gold-900: #2C2105;
+}
+
+@layer utilities {
+  .gold-gradient {
+    background: linear-gradient(135deg, #F6E2A3 0%, #DCC255 50%, #A8861B 100%);
+  }
+  .gold-text-gradient {
+    background: linear-gradient(135deg, #F6E2A3 0%, #DCC255 50%, #A8861B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .gold-border-gradient {
+    border-image: linear-gradient(135deg, #F6E2A3 0%, #DCC255 50%, #A8861B 100%) 1;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Smooth scrolling on full viewport level */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom dark scrollbar style for luxury feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A8861B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DCC255;
+}
