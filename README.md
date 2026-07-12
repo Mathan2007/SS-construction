@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SS Construction Website
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/b049b118-2138-45c0-b22a-d55aa08e793e
+## What this project is
+Frontend website for **SS Construction** (React + Vite).
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js
 
-
+### Steps
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Start dev server:
    `npm run dev`
+3. Build for production (optional):
+   `npm run build`
+
+## Configure environment (optional)
+If your app uses environment variables, create an `.env` file in the project root and add the required keys (example):
+
+```env
+VITE_WEB3FORMS_ACCESS_KEY=your_web3forms_access_key
+```
+
+## Deploy
+Build the project with:
+- `npm run build`
+
+Then deploy the contents of `dist/` using your preferred host.
