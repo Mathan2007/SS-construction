@@ -27,4 +27,4 @@ VITE_WEB3FORMS_ACCESS_KEY= 956e1460-d5de-45ae-adfd-0ec8b4d7067d
 Build the project with:
 - `npm run build`
 
-Then deploy the contents of `dist/` using your preferred host.
+Then deploy the contents of `dist/` using your preferred host .
