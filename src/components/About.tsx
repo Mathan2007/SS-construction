@@ -2,6 +2,8 @@ import { useEffect, useState, useRef, ReactNode } from 'react';
 import { motion, useInView } from 'motion/react';
 import { Award, Shield, UserCheck, Calendar, CheckSquare, Clock } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { SS_CONSTRUCTION_LOGO } from '../imageAssets';
+
 
 interface StatProps {
   target: number;
@@ -82,7 +84,8 @@ export default function About() {
               className="relative z-10 rounded-lg overflow-hidden border border-gold-500/10 shadow-2xl bg-white dark:bg-white flex items-center justify-center p-8 h-[500px]"
             >
               <img
-                src="/src/assets/images/ss_construction_logo_1783781536577.jpg"
+
+                src={SS_CONSTRUCTION_LOGO}
                 alt="SS Construction logo"
                 className="max-w-full max-h-full object-contain"
                 referrerPolicy="no-referrer"
