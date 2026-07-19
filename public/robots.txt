@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ssconstructionnamakkal.vercel.app/sitemap.xml
+
+Sitemap: https://ssconstructionsnamakkal.vercel.app/sitemap.xml
+
 
